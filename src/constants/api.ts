@@ -1,4 +1,4 @@
-export const API_URL = "https://auto1-mock-server.herokuapp.com/";
-export const CAR_SERVICE_URL = "api/cars";
-export const COLORS_SERVICE_URL = "api/colors";
-export const MANUFACTURES_SERVICE_URL = "api/manufacturers";
+export const API_URL = "https://api.thedogapi.com/";
+export const DOG_SERVICE_URL = "v1/images/search";
+export const DEFAULT_QUERY =
+  "size=med&mime_types=jpg&format=json&has_breeds=true&order=DESC&limit=20";

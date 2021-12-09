@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useFetch } from "../../hooks";
-import { getDogs } from "../../api/cars";
+import { getDogs } from "../../api/cards";
 import { CardItem } from "..";
 import { Dog } from "../../interfaces/cars";
 import { useStyles } from "./CardsList.styles";
